@@ -1,0 +1,406 @@
+[API Trapper      (7c94:58c4)] Recording in 64-bit mode: C:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (67d8:3020)] Recording in 32-bit mode: C:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (67d8:3ea4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (67d8:3ea4)] Load Network Traffic Analyzers:
+[Network Analyzer (67d8:3ea4)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (67d8:3ea4)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter.dll)
+[Network Analyzer (67d8:3ea4)]     + Network Analyzer: api_http_filter.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (67d8:3ea4)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter.dll
+[Network Analyzer (67d8:3ea4)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (67d8:3ea4)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (67d8:3ea4)]     Analyzer Module: local_server (value=)
+[Network Analyzer (67d8:3ea4)] ------------------------------------------------------------------------------------------
+[Network Analyzer (67d8:6d84)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Net An. Warning  (67d8:3ea4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (67d8:722c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (67d8:3ea4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (67d8:722c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (67d8:3ea4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (67d8:3ea4)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (67d8:722c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (67d8:722c)] Request Connection: Remote Server @ 0:0:0:0:0:0:0:1: - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (67d8:3ea4)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:5db8)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:3ea4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (67d8:5db8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Web Request      (67d8:6d84)] "GET /WebTours/"   
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Client -> Server @ : 270 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Server -> Client : 664 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/header.html"   
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Client -> Server @ : 323 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Server -> Client : 1007 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /cgi-bin/welcome.pl?signOff=true"   
+[Network Analyzer (67d8:6d84)]   (Sid:  2) Client -> Server @ : 334 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  2) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  2) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/images/hp_logo.png"   
+[Network Analyzer (67d8:6d84)]   (Sid:  2) Client -> Server @ : 382 bytes (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/images/webtours.png"   
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Client -> Server @ : 383 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Server -> Client : 4486 bytes  (Service=HTTP)
+[Network Analyzer (67d8:5db8)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Web Request      (67d8:6d84)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Client -> Server @ : 375 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  2) Server -> Client : 898 bytes  (Service=HTTP)
+[Network Analyzer (67d8:722c)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:5db8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Web Request      (67d8:6d84)] "GET /WebTours/home.html"   
+[Network Analyzer (67d8:6d84)]   (Sid:  2) Client -> Server @ : 371 bytes (Service=HTTP)
+[Network Analyzer (67d8:722c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (67d8:6d84)]   (Sid:  2) Server -> Client : 1659 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Server -> Client : 1752 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/images/mer_login.gif"   
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Client -> Server @ : 386 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Server -> Client : 976 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /favicon.ico"   
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Client -> Server @ : 231 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Server -> Client : 424 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (67d8:6d84)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (7c94:77a0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (7c94:77a0)] Load Network Traffic Analyzers:
+[Network Analyzer (7c94:77a0)]     Analyzer Module: WPLUS (value=)
+[Network Analyzer (7c94:77a0)]     Analyzer Module: WebBase (value=GetHttpProtocolAnalyzer:api_http_filter_x64.dll)
+[Network Analyzer (7c94:77a0)]     + Network Analyzer: api_http_filter_x64.dll @ GetHttpProtocolAnalyzer Loaded!
+[Network Analyzer (7c94:77a0)]     + Interception Auditors: WinInetWplusInterceptionAudit:api_http_filter_x64.dll
+[Network Analyzer (7c94:77a0)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer_x64.dll)
+[Network Analyzer (7c94:77a0)]     + Network Analyzer: WebSocketAnalyzer_x64.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (7c94:77a0)]     Analyzer Module: local_server (value=)
+[Network Analyzer (7c94:77a0)] ------------------------------------------------------------------------------------------
+[Network Analyzer (7c94:7dec)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:6d84)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (67d8:6d84)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (67d8:3ea4)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:5db8)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:3ea4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (67d8:5db8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (67d8:6d84)] "POST /cgi-bin/login.pl"   
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Client -> Server @ : 578 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Server -> Client : 847 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /cgi-bin/nav.pl?page=menu&in=home"   
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Client -> Server @ : 480 bytes (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /cgi-bin/login.pl?intro=true"   
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Server -> Client : 1154 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/images/flights.gif"   
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Client -> Server @ : 504 bytes (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/images/itinerary.gif"   
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Client -> Server @ : 506 bytes (Service=HTTP)
+[Network Analyzer (67d8:3ea4)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:5db8)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:3ea4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (67d8:5db8)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (67d8:6d84)] "GET /WebTours/images/signoff.gif"   
+[Network Analyzer (67d8:6d84)]   (Sid:  7) Client -> Server @ : 504 bytes (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/images/in_home.gif"   
+[Network Analyzer (67d8:6d84)]   (Sid:  8) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  7) Server -> Client : 1049 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  8) Server -> Client : 986 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Server -> Client : 1030 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Server -> Client : 1023 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /cgi-bin/welcome.pl?page=search"   
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Client -> Server @ : 494 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Server -> Client : 838 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /cgi-bin/nav.pl?page=menu&in=flights"   
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Client -> Server @ : 497 bytes (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /cgi-bin/reservations.pl?page=welcome"   
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Client -> Server @ : 498 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Server -> Client : 1744 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/images/in_flights.gif"   
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Client -> Server @ : 510 bytes (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/images/home.gif"   
+[Network Analyzer (67d8:6d84)]   (Sid:  8) Client -> Server @ : 504 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  8) Server -> Client : 985 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Server -> Client : 1023 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Server -> Client : 4234 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Server -> Client : 286 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/images/button_next.gif"   
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Client -> Server @ : 512 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Server -> Client : 1055 bytes  (Service=HTTP)
+[Network Analyzer (7c94: 610)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (7c94:7a78)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (7c94:77a0)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (7c94:77a0)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (7c94: 610)] Request Connection: Remote Server @ 52.230.39.27:443   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (7c94:7a78)] Request Connection: Remote Server @ 52.230.39.27:443   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (67d8:6d84)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (7c94:1e88)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:722c)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Web Request      (67d8:6d84)] "GET /WebTours/classes/"   
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Server -> Client : 434 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/classes/"   
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Client -> Server @ : 485 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Server -> Client : 434 bytes  (Service=HTTP)
+[Network Analyzer (7c94:1e88)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  4)  PROXIED!
+[Network Analyzer (67d8:722c)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (67d8:6d84)]   (Sid:  8) Connection Terminated (by Server)
+[Network Analyzer (67d8:6d84)]   (Sid:  5) Connection Terminated (by Server)
+[Network Analyzer (7c94:3200)]   (Sid:  1) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (67d8:275c)]   (Sid:  9) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7c94:6d68)]   (Sid:  2) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (7c94:7edc)]   (Sid:  3) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (7c94:6e00)]   (Sid:  4) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (67d8:6d84)]   (Sid:  6) Connection Terminated (by Server)
+[Network Analyzer (7c94: 610)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (7c94:6c78)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (7c94: 610)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  5)  PROXIED!
+[Web Request      (7c94:7dec)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCExwAFF8jA2u85i8%2FLFYAAAAUXyM%3D"   
+[Network Analyzer (7c94:7dec)]   (Sid:  5) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (7c94:6c78)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid=  6)  PROXIED!
+[Web Request      (7c94:7dec)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (7c94:7dec)]   (Sid:  6) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (67d8:7610)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:7610)] Request Connection: Remote Server @ 104.18.25.243:80   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (7c94:7dec)]   (Sid:  6) Server -> Client : 541 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  5) Server -> Client : 541 bytes  (Service=HTTP)
+[Web Request      (7c94:7dec)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCE3sACtnwdNPmOm%2BiK5UAAAAK2fA%3D"   
+[Network Analyzer (7c94:7dec)]   (Sid:  6) Client -> Server @ : 283 bytes (Service=HTTP)
+[Web Request      (7c94:7dec)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCExwAFF8jA2u85i8%2FLFYAAAAUXyM%3D"   
+[Network Analyzer (7c94:7dec)]   (Sid:  5) Client -> Server @ : 283 bytes (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  5) Server -> Client : 545 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  6) Server -> Client : 545 bytes  (Service=HTTP)
+[Network Analyzer (7c94:6c78)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (7c94:3994)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (7c94:6c78)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid=  7)  PROXIED!
+[Web Request      (7c94:7dec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (7c94:3994)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid=  8)  PROXIED!
+[Web Request      (7c94:7dec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 13600 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 16320 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 4999 bytes  (Service=HTTP)
+[Web Request      (7c94:7dec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 10674 bytes  (Service=HTTP)
+[Web Request      (7c94:7dec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  8) Server -> Client : 4999 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 10880 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 12240 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  7) Server -> Client : 3874 bytes  (Service=HTTP)
+[Network Analyzer (67d8:7610)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:7d70)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Web Request      (67d8:6d84)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCExwAFF8jA2u85i8%2FLFYAAAAUXyM%3D"   
+[Network Analyzer (67d8:6d84)]   (Sid: 10) Client -> Server @ : 240 bytes (Service=HTTP)
+[Network Analyzer (67d8:7610)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (67d8:7d70)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (67d8:6d84)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (67d8:6d84)]   (Sid: 11) Client -> Server @ : 824 bytes (Service=HTTP)
+[Network Analyzer (7c94:6c78)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (7c94: 610)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:6d84)]   (Sid: 10) Server -> Client : 545 bytes  (Service=HTTP)
+[Network Analyzer (7c94:6c78)] Request Connection: Remote Server @ 182.18.179.97:80   (Service=)  (Sid=  9)  PROXIED!
+[Web Request      (7c94:7dec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (7c94: 610)] Request Connection: Remote Server @ 182.18.179.97:80   (Service=)  (Sid= 10)  PROXIED!
+[Web Request      (7c94:7dec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 11) Server -> Client : 2699 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /MFQwUjBQME4wTDAJBgUrDgMCGgUABBR0AkbyWlxCEiC1vV12Caa6XKNH3wQUJPIuTg%2B9yvc%2BKVXKco1ph1ZE6XoCExwAFF8jA2u85i8%2FLFYAAAAUXyM%3D"   
+[Network Analyzer (67d8:6d84)]   (Sid: 10) Client -> Server @ : 283 bytes (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 5376 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 12240 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 13536 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 10) Server -> Client : 545 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 1288 bytes  (Service=HTTP)
+[Network Analyzer (67d8:5db8)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Web Request      (7c94:7dec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%201.crl"   
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 1052 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer (67d8:5db8)] Request Connection: Remote Server @ 117.18.232.200:80   (Service=)  (Sid= 13)  PROXIED!
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 5440 bytes  (Service=HTTP)
+[Web Request      (7c94:7dec)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 2656 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 10) Server -> Client : 10508 bytes  (Service=HTTP)
+[Net An. Error    (7c94:3200)] SSLAccept(ssl_id = 1994282094592 = 000001D05479D000) Failed, ctx = 000001D05476CC60, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (7c94:3200)]   (Sid:  1) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (7c94:6e00)] SSLAccept(ssl_id = 1994281785024 = 000001D0547516C0) Failed, ctx = 000001D05476CC60, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (7c94:6e00)]   (Sid:  4) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (7c94:4124)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (7c94:7dec)]   (Sid:  1) Connection Terminated (by Client)
+[Network Analyzer (7c94:7dec)]   (Sid:  4) Connection Terminated (by Client)
+[Network Analyzer (7c94:4124)] Request Connection: Remote Server @ 117.18.232.200:443   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7300)]   (Sid: 11) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.3, ciphers:TLS_AES_256_GCM_SHA384)
+[Network Analyzer (7c94:7300)]   (Sid: 11) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 14960 bytes  (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 16384 bytes  (Service=HTTP)
+[Web Request      (7c94:7dec)] "GET /IE11/1478281996/iecompatviewlist.xml"   
+[Network Analyzer (7c94:7dec)]   (Sid: 11) Client -> Server @ : 486 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  9) Server -> Client : 12104 bytes  (Service=HTTP)
+[Net An. Error    (7c94:6d68)] SSLAccept(ssl_id = 1994283200128 = 000001D0548AAE80) Failed, ctx = 000001D05486A5F0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (7c94:6d68)]   (Sid:  2) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Net An. Error    (7c94:7edc)] SSLAccept(ssl_id = 1994299080784 = 000001D0557D0050) Failed, ctx = 000001D05486A5F0, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (7c94:7edc)]   (Sid:  3) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Network Analyzer (7c94:7dec)]   (Sid: 11) Server -> Client : 479 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid:  2) Connection Terminated (by Client)
+[Network Analyzer (7c94:7dec)]   (Sid:  3) Connection Terminated (by Client)
+[Network Analyzer (7c94:7dec)]   (Sid: 11) Server -> Client : 15904 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 11) Server -> Client : 10005 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7c94:77a0)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (7c94:77a0)] Request Connection: Remote Server @ 52.230.39.27:443   (Service=)  (Sid= 12)  PROXIED!
+[Web Request      (67d8:6d84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Client -> Server @ : 168 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 14896 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 12240 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 6487 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Client -> Server @ : 211 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 10880 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 13) Server -> Client : 1047 bytes  (Service=HTTP)
+[Network Analyzer (67d8:7d70)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:7d70)] Request Connection: Remote Server @ 182.18.179.97:80   (Service=)  (Sid= 14)  PROXIED!
+[Web Request      (67d8:6d84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Client -> Server @ : 166 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 16384 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 300 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 624 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /pki/mscorp/crl/Microsoft%20IT%20TLS%20CA%202.crl"   
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Client -> Server @ : 209 bytes (Service=HTTP)
+[Network Analyzer (7c94:79a0)]   (Sid: 12) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (7c94:79a0)]   (Sid: 12) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:ECDHE-RSA-AES256-GCM-SHA384)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 8160 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 6800 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 5440 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 4080 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 2720 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1360 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 14) Server -> Client : 1052 bytes  (Service=HTTP)
+[Net An. Error    (67d8:275c)] SSLAccept(ssl_id = 171942616 = 0A3FA2D8) Failed, ctx = 081BF730, err = "SSLv3/TLS write server done", err code = 5, err msg= "error:00000005:lib(0):func(0):DH lib
+" 
+[Net An. Error    (67d8:275c)]   (Sid:  9) Negotiate Client -> Proxy SSL Handshake Failed!!!
+[Web Request      (7c94:7dec)] "GET /l1.dat?cw=637194112741176080&v=3&cv=9.11.18362.0&os=10.0.18363.0.0&pg=4A72F430-B40C-4D36-A068-CE33ADA5ADF9"   
+[Network Analyzer (7c94:7dec)]   (Sid: 12) Client -> Server @ : 553 bytes (SSL)(Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 12) Server -> Client : 135 bytes (SSL) (Service=HTTP)
+[Network Analyzer (7c94:7dec)]   (Sid: 12) Connection Terminated (by Server)
+[Network Analyzer (67d8:6d84)]   (Sid:  9) Connection Terminated (by Client)
+[Web Request      (67d8:6d84)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (67d8:6d84)]   (Sid: 11) Client -> Server @ : 717 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 11) Server -> Client : 2960 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 11) Server -> Client : 5 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 11) Connection Terminated (by Server)
+[Network Analyzer (67d8:6d84)]   (Sid: 12) Connection Terminated (by Client)
+[Network Analyzer (67d8:722c)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:3ea4)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:722c)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 15)  PROXIED!
+[Network Analyzer (67d8:3ea4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 16)  PROXIED!
+[Web Request      (67d8:6d84)] "POST /cgi-bin/reservations.pl"   
+[Network Analyzer (67d8:6d84)]   (Sid: 15) Client -> Server @ : 885 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 15) Server -> Client : 2839 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 15) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/images/bookanother.gif"   
+[Network Analyzer (67d8:6d84)]   (Sid: 15) Client -> Server @ : 475 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 15) Server -> Client : 1103 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 15) Connection Terminated (by Server)
+[Web Request      (67d8:6d84)] "GET /cgi-bin/welcome.pl?signOff=1"   
+[Network Analyzer (67d8:6d84)]   (Sid: 16) Client -> Server @ : 471 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 16) Server -> Client : 1021 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /cgi-bin/nav.pl?in=home"   
+[Network Analyzer (67d8:6d84)]   (Sid: 16) Client -> Server @ : 372 bytes (Service=HTTP)
+[Network Analyzer (67d8:3ea4)] Address lookup for DESKTOP-IGMCE6B = 192.168.9.94
+[Network Analyzer (67d8:3ea4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid= 17)  PROXIED!
+[Network Analyzer (67d8:6d84)]   (Sid: 16) Server -> Client : 1751 bytes  (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 16) Server -> Client : 5 bytes  (Service=HTTP)
+[Web Request      (67d8:6d84)] "GET /WebTours/home.html"   
+[Network Analyzer (67d8:6d84)]   (Sid: 17) Client -> Server @ : 468 bytes (Service=HTTP)
+[Network Analyzer (67d8:6d84)]   (Sid: 17) Server -> Client : 194 bytes  (Service=HTTP)

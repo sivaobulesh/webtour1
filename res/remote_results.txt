@@ -1,0 +1,2 @@
+[Hosts]
+localhost=D:\loadrunner\demo_server\webtour\webtoure\res\localhost_1.eve
